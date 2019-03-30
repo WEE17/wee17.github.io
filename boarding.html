@@ -1,0 +1,165 @@
+<html>
+    
+    
+    
+    
+    <style>
+         body{
+             background-color:antiquewhite;
+             
+         }
+        #apply1{
+            color:white;
+            border-radius:60px
+			padding:10px;
+			background-color:blue; font-size:20px;
+			font-weight:bolder;
+			transition:background-color 2s ease 0s;}
+			#apply:hover{background-color:yellow;
+		}
+        table {
+            margin:auto;
+            height:400px;
+        }
+        
+        td {
+            margin: 0 auto;
+            vertical-align: top;
+            width:200px;
+            height:400px;
+            border-right: 1px solid black;
+        }
+        .middle{
+            width:40%;
+            padding-top:30px;
+            padding-left: 50px;
+                background-color:coral;
+            color: white;
+        }
+       
+        form{
+             margin: 0 auto;
+             width:380px;
+        }
+        .question{
+                margin: 0 auto;
+                 width: 180px;
+        }
+        .end{
+            width:25%;
+            padding-left:30px;
+            padding-right:30px;
+            padding-top:30px;
+        }
+        
+        h1{
+            text-align: center;
+        }
+        
+        input[type=checkbox]:checked + label{
+         color:yellow;
+         }
+        
+    </style>
+    
+    <body>
+        <p> <a href="indexx.html">Back to Student Main</a></p>
+        
+        <h1>APPLY FOR BOARDING</h1>
+        
+        <table>
+            
+            <tbody>
+        <tr>
+             <td class="end">
+               <a href="#">Terms and Condition</a>
+            </td>
+            
+            <td class="middle"> 
+            
+            <form>
+                
+                <p>
+                            <label>Preferred Hall/Residence<br/>
+                                <select name="Hall/Residence">
+                                    <option selected="selected">Pick hall</option>
+                                    <option>Lionel</option>
+                                    <option>Marvis</option>
+                                    <option>St. Grayside</option>
+                                </select> 
+                            </label>
+                    
+                        </p>
+							<p>
+								<label>First Name</label>
+								<br>
+								<input First Name = "First Name" type = "text"  size = "25" placeholder="eg. Tia"  required />
+								<br>
+							</p>
+							<p>
+								<label>Surname</label> 
+								<br>
+								<input Surname = "Surname" type = "text" size = "25" placeholder="eg. Smith" required />
+								<br>
+							</p>
+							<p>
+								<label>Middle Initial</label> 
+								<br>
+								<input First Name = "Middle Initial" type = "text" size = "25" placeholder="eg. A" required />
+								<br>
+							</p>
+                
+                                 <p>Gender</p>
+                                
+								<label class="container">Male
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                                </label>
+                                
+                
+                                <label class="container">Female
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                                </label>
+								<br>
+							
+        
+							<br>
+                                
+							<p>
+                            Known Ailments <i>(select all that apply)</i><br/>
+                            <input name = "Ailments" type = "checkbox" value = "wet hands" />
+                            <label>Wet hands</label><br>
+
+                            <input name = "Ailments" type = "checkbox" value = "smelly feet" />
+                            <label>Smelly feet</label><br/>
+
+                            <input name = "Ailments" type = "checkbox" value = "dry eyes" />
+                            <label>Dry Eyes</label><br/>
+
+                            <input name = "Ailments" type = "checkbox" value = "bright lights allergy" />
+                            <label>Bright lights allergy</label>
+                        </p>
+                        <p>
+                            <input name = "Ailments" type = "checkbox" value = "termsandconditions" />
+                            <label>I have read and agree to the <a href="">Terms & Conditions</a></label>
+                        </p>
+                
+                         <p>
+                            <input type="submit" value="Apply" id="apply1"/>
+                            <input type="reset" value="Reset" id="apply1"/>
+                        </p>
+                
+                
+						</form>
+                
+            
+            </td>
+            
+            <td class="end">
+            
+            <p class="question">Any Questions?<br><br>Any member of our student  services team will be happy to help.<br><br><a href="#">Contact Us</a></p>
+            
+            </td>
+        <tr>
+            </tbody>
