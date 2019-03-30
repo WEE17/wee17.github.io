@@ -1,0 +1,183 @@
+<html>
+   
+    
+    <head > 
+        
+        <title>Information for Current Students</title> 
+        
+        
+     <style>  
+        
+         #cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+  padding-left: 20px;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+         @keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf3 img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+
+  
+         body{
+             background-color:antiquewhite;    
+         }
+         
+         th{
+             text-align: center;
+             font-family: inherit;
+             font-size: 20px;
+         }
+         
+        ul {
+			  margin: 0;
+			}
+			ul.dashed {
+				  list-style-type: none;
+				}
+			ul.dashed > li {
+				 margin-right: 20px;
+				  text-indent: -5px;
+				}
+			ul.dashed > li:before {
+				  content: "-";
+				  margin-right: 20px;
+				  text-indent: -5px;
+              }
+        
+        table {
+            margin:0 auto;
+        }
+                
+         td.border{
+                border-right: 1px solid #000;
+                padding:40px;
+                background-color:coral;
+                }
+        td{
+            width:300px;
+            padding:10px;
+            color:white;
+            font-size:20px;
+        }
+         .colour{
+            color:yellow;
+         }
+         
+         .picture{
+             width:20px;
+             height:20px;
+             position:absolute;
+             height:500px;
+             vertical-align:top;
+         }
+         
+         img {
+                 height:550px;
+                  width:650px;
+              padding-left: 20px;
+             }
+    
+         p{
+             color:black;
+         }
+         
+    
+    </style>
+    
+    </head>
+    
+    
+    <body>
+        
+    <table>
+        
+        
+        <thead>
+            <tr>
+                <th colspan="2" >Information for Current Students</th>
+            </tr>
+        
+        </thead>
+       
+        <tbody>    
+            
+        <td class="border">
+        <p>Academic Resources</p>    
+      <ul class = "dashed">
+          <li>Handbook</li>
+             <ul class="colour">
+               <li>Undergraduate</li>
+               <li>Graduate</li>
+             </ul>
+         <li>Module Selection Guide</li>
+          </ul>
+          
+           <p>Student Services</p>
+            
+             <ul class ="dashed">   
+                <li>Accomodation</li>
+                <li>Admissions</li>
+                <li>Financial Aid</li>
+                <li>Graduation</li>
+                <li>Medical Centre</li>
+            </ul>
+                <p>Online Applications</p>
+                
+                   <ul class ="dashed">
+                       <li>Add/Drop</li>
+                       <li> <a href="boarding.html">Boarding</a> </li>
+                       <li>Medical Center Appointment</li>
+                       <li> Fee Payment</li>
+                    </ul>
+            
+                  
+        </td>
+        
+        <td id="cf" class="picture">
+             <img class="bottom" src=" https://www.saintpeters.edu/residence-life/files/2012/06/22486881828_32fd1fda4b_k-768x513.jpg">
+             <img class="top" src=" https://www.ulster.ac.uk/__data/assets/image/0007/104020/Pic-2-PwC-EDGE-.jpg">
+        </td>
+        
+        </tbody>
+    </table>
+    </body>
+    
+    
+    
+    
+    
+</html>
